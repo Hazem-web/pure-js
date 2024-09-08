@@ -160,7 +160,6 @@ class UserRegistration {
         if(ret)
             return;
 
-        alert('Login successful!');
         sessionStorage.setItem('user',JSON.stringify(checker))
         location.assign('exam.html');
     }
