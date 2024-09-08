@@ -1,0 +1,412 @@
+[
+  {
+    "question": "What is the capital city of France?",
+    "options": [
+        {"option": "A", "text": "Berlin"},
+        {"option": "B", "text": "Madrid"},
+        {"option": "C", "text": "Paris"},
+        {"option": "D", "text": "Rome"}
+    ],
+    "answer": "C"
+},
+{
+    "question": "Which planet is known as the Red Planet?",
+    "options": [
+        {"option": "A", "text": "Venus"},
+        {"option": "B", "text": "Mars"},
+        {"option": "C", "text": "Jupiter"},
+        {"option": "D", "text": "Saturn"}
+    ],
+    "answer": "B"
+},
+{
+    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "options": [
+        {"option": "A", "text": "Harper Lee"},
+        {"option": "B", "text": "Mark Twain"},
+        {"option": "C", "text": "Ernest Hemingway"},
+        {"option": "D", "text": "F. Scott Fitzgerald"}
+    ],
+    "answer": "A"
+},
+{
+    "question": "Which element has the chemical symbol 'O'?",
+    "options": [
+        {"option": "A", "text": "Gold"},
+        {"option": "B", "text": "Oxygen"},
+        {"option": "C", "text": "Osmium"},
+        {"option": "D", "text": "Iron"}
+    ],
+    "answer": "B"
+},
+{
+    "question": "What is the largest ocean on Earth?",
+    "options": [
+        {"option": "A", "text": "Atlantic Ocean"},
+        {"option": "B", "text": "Indian Ocean"},
+        {"option": "C", "text": "Arctic Ocean"},
+        {"option": "D", "text": "Pacific Ocean"}
+    ],
+    "answer": "D"
+},
+{
+    "question": "In what year did the Titanic sink?",
+    "options": [
+        {"option": "A", "text": "1912"},
+        {"option": "B", "text": "1911"},
+        {"option": "C", "text": "1905"},
+        {"option": "D", "text": "1908"}
+    ],
+    "answer": "A"
+},
+{
+    "question": "Who is known as the 'Father of Computers'?",
+    "options": [
+        {"option": "A", "text": "Charles Babbage"},
+        {"option": "B", "text": "Alan Turing"},
+        {"option": "C", "text": "Bill Gates"},
+        {"option": "D", "text": "Steve Jobs"}
+    ],
+    "answer": "A"
+},
+{
+    "question": "What is the smallest prime number?",
+    "options": [
+        {"option": "A", "text": "1"},
+        {"option": "B", "text": "2"},
+        {"option": "C", "text": "3"},
+        {"option": "D", "text": "5"}
+    ],
+    "answer": "B"
+},
+{
+    "question": "What is the powerhouse of the cell?",
+    "options": [
+        {"option": "A", "text": "Nucleus"},
+        {"option": "B", "text": "Mitochondria"},
+        {"option": "C", "text": "Ribosome"},
+        {"option": "D", "text": "Endoplasmic Reticulum"}
+    ],
+    "answer": "B"
+},
+{
+    "question": "Which planet is closest to the Sun?",
+    "options": [
+        {"option": "A", "text": "Venus"},
+        {"option": "B", "text": "Earth"},
+        {"option": "C", "text": "Mercury"},
+        {"option": "D", "text": "Mars"}
+    ],
+    "answer": "C"
+},
+{
+    "question": "What is the chemical formula for water?",
+    "options": [
+        {"option": "A", "text": "H2O"},
+        {"option": "B", "text": "CO2"},
+        {"option": "C", "text": "NaCl"},
+        {"option": "D", "text": "O2"}
+    ],
+    "answer": "A"
+},
+{
+    "question": "Who painted the Mona Lisa?",
+    "options": [
+        {"option": "A", "text": "Vincent van Gogh"},
+        {"option": "B", "text": "Pablo Picasso"},
+        {"option": "C", "text": "Leonardo da Vinci"},
+        {"option": "D", "text": "Claude Monet"}
+    ],
+    "answer": "C"
+},
+{
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "options": [
+        {"option": "A", "text": "China"},
+        {"option": "B", "text": "Japan"},
+        {"option": "C", "text": "South Korea"},
+        {"option": "D", "text": "Thailand"}
+    ],
+    "answer": "B"
+},
+{
+    "question": "In which ocean is the Mariana Trench located?",
+    "options": [
+        {"option": "A", "text": "Atlantic Ocean"},
+        {"option": "B", "text": "Indian Ocean"},
+        {"option": "C", "text": "Pacific Ocean"},
+        {"option": "D", "text": "Arctic Ocean"}
+    ],
+    "answer": "C"
+},
+{
+    "question": "Which famous scientist developed the theory of relativity?",
+    "options": [
+        {"option": "A", "text": "Isaac Newton"},
+        {"option": "B", "text": "Albert Einstein"},
+        {"option": "C", "text": "Niels Bohr"},
+        {"option": "D", "text": "Galileo Galilei"}
+    ],
+    "answer": "B"
+},
+{
+    "question": "What is the hardest natural substance on Earth?",
+    "options": [
+        {"option": "A", "text": "Gold"},
+        {"option": "B", "text": "Diamond"},
+        {"option": "C", "text": "Iron"},
+        {"option": "D", "text": "Platinum"}
+    ],
+    "answer": "B"
+},
+{
+    "question": "What is the capital of Canada?",
+    "options": [
+        {"option": "A", "text": "Toronto"},
+        {"option": "B", "text": "Vancouver"},
+        {"option": "C", "text": "Ottawa"},
+        {"option": "D", "text": "Montreal"}
+    ],
+    "answer": "C"
+},
+{
+    "question": "What is the largest mammal in the world?",
+    "options": [
+        {"option": "A", "text": "Elephant"},
+        {"option": "B", "text": "Blue Whale"},
+        {"option": "C", "text": "Giraffe"},
+        {"option": "D", "text": "Hippopotamus"}
+    ],
+    "answer": "B"
+},
+{
+    "question": "Which gas do plants absorb from the atmosphere for photosynthesis?",
+    "options": [
+        {"option": "A", "text": "Oxygen"},
+        {"option": "B", "text": "Nitrogen"},
+        {"option": "C", "text": "Carbon Dioxide"},
+        {"option": "D", "text": "Hydrogen"}
+    ],
+    "answer": "C"
+},
+{
+    "question": "In which city would you find the Colosseum?",
+    "options": [
+        {"option": "A", "text": "Athens"},
+        {"option": "B", "text": "Rome"},
+        {"option": "C", "text": "Paris"},
+        {"option": "D", "text": "London"}
+    ],
+    "answer": "B"
+},
+{
+    "question": "What is the smallest continent by land area?",
+    "options": [
+        {"option": "A", "text": "Africa"},
+        {"option": "B", "text": "Europe"},
+        {"option": "C", "text": "Australia"},
+        {"option": "D", "text": "South America"}
+    ],
+    "answer": "C"
+},
+{
+    "question": "What is the largest planet in our solar system?",
+    "options": [
+        {"option": "A", "text": "Earth"},
+        {"option": "B", "text": "Jupiter"},
+        {"option": "C", "text": "Saturn"},
+        {"option": "D", "text": "Uranus"}
+    ],
+    "answer": "B"
+},
+{
+    "question": "What is the chemical symbol for gold?",
+    "options": [
+        {"option": "A", "text": "Ag"},
+        {"option": "B", "text": "Au"},
+        {"option": "C", "text": "Pb"},
+        {"option": "D", "text": "Fe"}
+    ],
+    "answer": "B"
+},
+{
+    "question": "Who was the first person to step on the Moon?",
+    "options": [
+        {"option": "A", "text": "Buzz Aldrin"},
+        {"option": "B", "text": "Neil Armstrong"},
+        {"option": "C", "text": "Michael Collins"},
+        {"option": "D", "text": "Yuri Gagarin"}
+    ],
+    "answer": "B"
+},
+{
+    "question": "Which animal is known for its black and white stripes?",
+    "options": [
+        {"option": "A", "text": "Lion"},
+        {"option": "B", "text": "Elephant"},
+        {"option": "C", "text": "Zebra"},
+        {"option": "D", "text": "Giraffe"}
+    ],
+    "answer": "C"
+},
+{
+    "question": "What is the longest river in the world?",
+    "options": [
+        {"option": "A", "text": "Nile"},
+        {"option": "B", "text": "Amazon"},
+        {"option": "C", "text": "Yangtze"},
+        {"option": "D", "text": "Mississippi"}
+    ],
+    "answer": "A"
+},
+{
+    "question": "What is the main ingredient in guacamole?",
+    "options": [
+        {"option": "A", "text": "Tomato"},
+        {"option": "B", "text": "Avocado"},
+        {"option": "C", "text": "Pepper"},
+        {"option": "D", "text": "Onion"}
+    ],
+    "answer": "B"
+},
+{
+    "question": "Which technology is used to make telephone calls over the Internet?",
+    "options": [
+        {"option": "A", "text": "Wi-Fi"},
+        {"option": "B", "text": "VoIP"},
+        {"option": "C", "text": "Bluetooth"},
+        {"option": "D", "text": "LTE"}
+    ],
+    "answer": "B"
+},
+{
+    "question": "Which programming language is known for its use in web development?",
+    "options": [
+        {"option": "A", "text": "Python"},
+        {"option": "B", "text": "Java"},
+        {"option": "C", "text": "JavaScript"},
+        {"option": "D", "text": "C++"}
+    ],
+    "answer": "C"
+},
+{
+    "question": "What is the process by which plants make their food?",
+    "options": [
+        {"option": "A", "text": "Respiration"},
+        {"option": "B", "text": "Photosynthesis"},
+        {"option": "C", "text": "Digestion"},
+        {"option": "D", "text": "Fermentation"}
+    ],
+    "answer": "B"
+},
+{
+    "question": "Which planet is known for its ring system?",
+    "options": [
+        {"option": "A", "text": "Saturn"},
+        {"option": "B", "text": "Jupiter"},
+        {"option": "C", "text": "Neptune"},
+        {"option": "D", "text": "Uranus"}
+    ],
+    "answer": "A"
+},
+{
+  "question": "Which of the following is a programming language used for web development?",
+  "options": [
+      {"option": "A", "text": "Python"},
+      {"option": "B", "text": "JavaScript"},
+      {"option": "C", "text": "C++"},
+      {"option": "D", "text": "Assembly"}
+  ],
+  "answer": "B"
+},
+{
+  "question": "In Python, which symbol is used to denote a comment?",
+  "options": [
+      {"option": "A", "text": "//"},
+      {"option": "B", "text": "#"},
+      {"option": "C", "text": "/*"},
+      {"option": "D", "text": "<!--"}
+  ],
+  "answer": "B"
+},
+{
+  "question": "What does HTML stand for?",
+  "options": [
+      {"option": "A", "text": "Hypertext Markup Language"},
+      {"option": "B", "text": "Hyperlink and Text Markup Language"},
+      {"option": "C", "text": "High-Level Text Markup Language"},
+      {"option": "D", "text": "Hypertext Machine Language"}
+  ],
+  "answer": "A"
+},
+{
+  "question": "Which of the following is NOT a data type in JavaScript?",
+  "options": [
+      {"option": "A", "text": "String"},
+      {"option": "B", "text": "Number"},
+      {"option": "C", "text": "Object"},
+      {"option": "D", "text": "Float"}
+  ],
+  "answer": "D"
+},
+{
+  "question": "What does SQL stand for?",
+  "options": [
+      {"option": "A", "text": "Structured Query Language"},
+      {"option": "B", "text": "Simple Query Language"},
+      {"option": "C", "text": "Standard Query Language"},
+      {"option": "D", "text": "System Query Language"}
+  ],
+  "answer": "A"
+},
+{
+  "question": "In C++, which operator is used for logical AND?",
+  "options": [
+      {"option": "A", "text": "&&"},
+      {"option": "B", "text": "&"},
+      {"option": "C", "text": "AND"},
+      {"option": "D", "text": "||"}
+  ],
+  "answer": "A"
+},
+{
+  "question": "What is the main purpose of a function in programming?",
+  "options": [
+      {"option": "A", "text": "To execute a block of code only once"},
+      {"option": "B", "text": "To repeat a block of code"},
+      {"option": "C", "text": "To perform a specific task and return a result"},
+      {"option": "D", "text": "To store data permanently"}
+  ],
+  "answer": "C"
+},
+{
+  "question": "Which data structure uses LIFO (Last In First Out) principle?",
+  "options": [
+      {"option": "A", "text": "Queue"},
+      {"option": "B", "text": "Stack"},
+      {"option": "C", "text": "Array"},
+      {"option": "D", "text": "Linked List"}
+  ],
+  "answer": "B"
+},
+{
+  "question": "In which programming paradigm are functions first-class citizens?",
+  "options": [
+      {"option": "A", "text": "Object-Oriented Programming"},
+      {"option": "B", "text": "Functional Programming"},
+      {"option": "C", "text": "Procedural Programming"},
+      {"option": "D", "text": "Declarative Programming"}
+  ],
+  "answer": "B"
+},
+{
+  "question": "Which of the following is used to handle errors in JavaScript?",
+  "options": [
+      {"option": "A", "text": "try-catch"},
+      {"option": "B", "text": "if-else"},
+      {"option": "C", "text": "error"},
+      {"option": "D", "text": "throw-catch"}
+  ],
+  "answer": "A"
+}
+    ]

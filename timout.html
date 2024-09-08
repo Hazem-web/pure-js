@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: url('assets/vecteezy_clock-alarm-icon-vector-illustration-seamless-pattern_8406232.jpg') ;
+            background-size: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        div{
+            margin-top: 9lh;
+            justify-content: center;
+            align-content:center ;
+            text-align: center;
+            padding: 30px 60px;
+            background-color: #384041;
+            color: white;
+            border-radius: 10px;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        img{
+            display: block;
+            width: 200px;
+            height: 200px;
+
+        }
+        a button{
+            background-color: black;
+            color: white;
+            padding: 20px 40px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <script>
+
+        const user =sessionStorage.getItem('user')
+        if(user==null){
+            window.location.assign('register.html')
+        }
+    </script>
+    <div>
+        <img src="assets/alarm-clock-icon-flat-design-style-simple-icon-on-grey-background-web-site-page-and-mobile-app-design-element-vector.jpg" alt="">
+        <p>Sorry, Your time is out</p>
+        <a href="exam.html"><button>Retake</button></a>
+    </div>
+</body>
+</html>

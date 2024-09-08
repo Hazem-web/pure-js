@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.hidden-transtion{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+.get-started{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+.exam-starting-img{
+    opacity: 1;
+    display: block;
+    height: 35lh;
+    width: 100%;
+}
+
+.starting-img-contain{
+    transition: all 2s !important;
+    grid-column:7/11 ;
+}
+
+.exam-starting-text{
+    color: gray;
+    display: flex;
+    justify-content:center ;
+    align-content: center;
+    flex-direction: column;
+    grid-column: 2/6;
+    
+}
+
+.exam-width{
+    grid-column: 2/10;
+}
+
+.exam-starting-text pre{
+    font-family:sans-serif;
+    font-size: 4.5vh;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    
+}
+.exam-contain{
+    width: 35%;
+    height: 3.4lh;
+    align-self: self-end;
+    transition: all 5s;
+    border: 2px solid gray;
+    border-radius: 11px;
+    transition: all 2s;
+
+}
+
+.start-btn{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1lh 0;
+    font-size: 2.5vh;
+    background-color: gray;
+    color: white;
+    border: none;
+    justify-self: left;
+    cursor: pointer;
+    border-radius: 11px;
+
+
+}
+ .start-btn:hover{
+    color: gray;
+    background-color: white;
+
+}
+.button-transtion-height{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: gray;
+    align-self:center;
+    margin: 8lh 0;
+}
+
+.opacity{
+    opacity: 0;
+}
+
+.exam{
+    transition: all 2s;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    height: auto;
+    visibility:visible;
+}
+.exam-grid{
+    grid-column: 2/12;
+}
+
+.exam-question{
+    text-align: center;
+    color: white;
+    background-color: darkmagenta;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius: 5px;
+    padding: 10px 0;
+    width: 100%;
+    margin: 40px 0;
+
+}
+.exam-answers{
+    width: 100%;
+    display: flex;
+    margin: 30px 0;
+    justify-content: space-between;
+}
+
+.answer{
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.answer-chosen{
+    background-color: aqua;
+}
+
+.move-bar{
+    margin: 30px 0;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.move-bar-item{
+    background-color: darkmagenta;
+    color:white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.move-bar-item:hover{
+    background-color: black;
+}
+.dot-bar{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 20px 2px;
+}
+
+.dot-currnet{
+    background-color: grey;
+}
+#flag{
+    padding: 2px 4px;
+    font-size: large;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    right: 0 !important;
+    z-index: 10;
+    width: 350px;
+    height: 40lh;
+    background-color:darkslateblue;
+
+}
+
+.navbar-hidden{
+    right: -100%;
+    transition: 2s ease-out;
+}
+.full-width{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
+.user{
+    width: 100%;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+}
+.flaged-section{
+    width: 100%;
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.flaged-question{
+    margin-top: 10px;
+    width: 90%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.user-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+}
+
+.timer{
+    align-self: start;
+    background-color: grey;
+    margin: 0 20px;
+    width: 60%;
+    padding: 15px 0;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.submit-container{
+    flex: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.submit{
+    width: 60%;
+    background-color: gray;
+    color: white;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    height: 20px;
+    cursor: pointer;
+
+}

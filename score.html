@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+        div{
+
+            justify-content: center;
+            align-content:center ;
+            text-align: center;
+        }
+        img{
+            width: 60vh;
+            height: 35lh;
+            display: block;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a button{
+            background-color: gray;
+            color: white;
+            padding: 20px 60px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+   
+    
+    <div>
+        <h2>Hi test<br>
+            your Score is test/10
+        </h2>
+        <a href="exam.html"><button>Retake</button></a>
+    </div>
+    <img src="assets/Customer Survey-rafiki.png" alt="">
+
+    <script>
+        
+
+        const test =sessionStorage.getItem('user')
+        if(!test){
+            location.assign('register.html')
+        }
+        const user=JSON.parse(sessionStorage.getItem('user'))
+        const score=sessionStorage.getItem('score')
+        document.querySelector('h2').innerHTML='Hi '+user.email+'<br/> your Score is '+score+'/10'
+
+
+    </script>
+    
+</body>
+</html>
